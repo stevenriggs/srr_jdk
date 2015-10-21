@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# This file is managed by Chef.
+# Do NOT modify this file directly.
+
+export JAVA_HOME="<%= @java_root %>/latest"
+export JRE_HOME="<%= @java_root %>/latest/jre"
+export MANPATH="${MANPATH}:${JAVA_HOME}/man"
+export PATH=${JAVA_HOME}/bin:${JRE_HOME}/bin:$PATH
