@@ -25,44 +25,17 @@ Attributes
     <td>URL location of the .gz installer file</td>
     <td><tt>"http://download.oracle.com/otn/java/jdk/7u71-b14/"</tt></td>
   </tr>
-</table>
-
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
   <tr>
     <td><tt>['srr_jdk']['installfile']</tt></td>
     <td>String</td>
     <td>Name of the .gz installer file</td>
     <td><tt>"jdk-7u67-linux-x64.gz"</tt></td>
   </tr>
-</table>
-
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
   <tr>
     <td><tt>['srr_jdk']['javafoldername']</tt></td>
     <td>String</td>
     <td>Name of the installation folder name. May be different than the .gz filename.</td>
     <td><tt>"jdk1.7.0_67"</tt></td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
   </tr>
   <tr>
     <td><tt>['srr_jdk']['installroot']</tt></td>
